@@ -1,0 +1,33 @@
+<!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Information</title>
+</head>
+<body>
+  <h1>Enter Your Information</h1>
+  <form id="user-form" enctype="multipart/form-data">
+    <label>First Name:</label><br>
+    <input type="text" name="firstName" required><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" name="lastName" required><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob" required><br>
+
+    <label>Nationality:</label><br>
+    <input type="text" name="nationality" required><br>
+
+    <label>Address:</label><br>
+    <input type="text" name="address" required><br><br>
+    <label>Upload Document:</label><br>
+    <input type="file" name="document" required><br><br>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
